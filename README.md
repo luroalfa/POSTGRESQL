@@ -1,8 +1,13 @@
 # Installation of Postgresql and Pgadmin in Ubuntu.
 ### Follow the following commands.
 
-1. First of all install Postgresql in Ubuntu 22.04.01:  
+1. First of all install Postgresql in Ubuntu 22.04.01:
+
+Esta primera linea de comandos **sudo apt update** sirve para actulizar la lista de paquetes disponibles en el sitema, esto es importante porque, cuando se instala un nuevo software o se actualiza un paquete existente, es necesario tener la lista más reciente de paquetes disponibles para asegurarse de que se está obteniendo la versión más reciente de software.</br>
+En resumen, el comando "sudo apt update" es esencial para mantener el sistema actualizado y asegurar una instalación y actualización de software sin problemas.
 * sudo apt update
+
+En la siguiente linea de comandos **sudo apt install postgresql postgresql-contrib** lo que vamos hacer es instalar el sistema de gestión de bases de datos **PostgreSQL** y algunas herramientas adicionales llamadas **"contribuciones"**
 * sudo apt install postgresql postgresql-contrib
 * sudo su - postgres
 * psql
