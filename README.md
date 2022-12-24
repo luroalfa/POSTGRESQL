@@ -1,4 +1,4 @@
-# Installation of Postgresql and Pgadmin in Ubuntu.
+# Installation of Postgresql and pgAdmin in Ubuntu.
 ### Follow the following commands.
 
 1. First of all install Postgresql in Ubuntu 22.04.01:
